@@ -101,3 +101,28 @@ main:after {
     background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
     z-index: -1;
 }
+
+/*scrollbar personalizado */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor do fundo do track */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999; /* Cor do scroll */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f5f5f5; /* Cor do hover do scroll */
+	width: 1px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #e0e0e0; /* Cor do coner do scroll */
+}
